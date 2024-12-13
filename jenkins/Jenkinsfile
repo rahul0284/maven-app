@@ -2,11 +2,11 @@ pipeline
 {
 
 agent {
-  label 'DevServer'
+  label none
 }
 
 tools {
-  maven 'mymaven'
+  maven 'maven_home'
 }
 
 stages{
